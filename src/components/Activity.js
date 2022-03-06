@@ -6,7 +6,7 @@ const Activity = () => {
   return (
     <div className='activity'>
       <div className='flex_between'>
-        <div  className='flex'>
+        <div  className='flex my-20'>
           <h2>Activity</h2>
           <select name="" id="" className='text_secondary'>
             <option value="Month">Month</option>

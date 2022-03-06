@@ -25,7 +25,7 @@ const Nav = ({title}) => {
         <div className='flex_align_center'>
           <img src={profle} alt="profile" />
           <div>
-            <small>Verified</small>
+            <small style={{color: "#22C55E"}}>Verified</small>
             <p>Huss Smith</p> 
           </div>
           <img src={caretDown} alt="caret down" />

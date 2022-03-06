@@ -16,7 +16,7 @@ const WalletSectionOne = () => {
           <option value="all">All</option>
         </select>
       </div>
-      <ul>
+      <ul className='my-20'>
         <li className='active_subnav'>Active (3)</li>
         <li>Inactive (2)</li>
         <li>Closed (0)</li>
@@ -30,7 +30,7 @@ const WalletSectionOne = () => {
               <p>EUR</p>
             </div>
           </div>
-          <div>
+          <div className='right'>
             <p>€2,000,000.50</p>
             <small>Default</small>
           </div>

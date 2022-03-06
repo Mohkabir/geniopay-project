@@ -44,7 +44,7 @@ const QuickLinks = () => {
   return (
     <div className='quickLinks'>
       <h2>Quick Links</h2>
-      <p>Your frequently used actions for easy access.</p>
+      <p style={{color: "#94A3B8"}}>Your frequently used actions for easy access.</p>
       <div className='card_wrapper'>
       {
         quickLinks.map( (quickLink, index) => (
